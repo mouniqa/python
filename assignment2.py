@@ -8,3 +8,6 @@ elif(num2>num1 and num2>num3):
     print(num2,"is the greatest of three numbers")
 else:
     print(num3,"is the greatest of the three numbers ")
+
+# in first conditon(if) we are checking num1 so we can eliminate it in elif
+# Also we can use num2<num1>num3 which is same as num1>num2 and num1>num3
