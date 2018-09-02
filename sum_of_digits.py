@@ -5,12 +5,14 @@
 #     2: n=23
 #       result = 5
 
-sOfDigits=int(input("Enter number to be summed up of : "))
+print('\nThis program will give you the sum of digits of any number that you enter.')
+number=int(input("Enter any number: "))
+copy_of_number = number
 
-res=0
+result=0
 
-while(sOfDigits != 0):
-    temp=sOfDigits%10
-    res=res+temp
-    sOfDigits=int(sOfDigits/10)
-print("Summation of numbers is : ",res)
+while(number != 0):
+    digit=number%10
+    result=result+digit
+    number=int(number/10)
+print('\nSum of the digits of {} is : {}\n'.format(copy_of_number,result))
