@@ -1,9 +1,11 @@
 #Reverse the number
 #This is my change - jagadeesh varma
 
-rNum=int(input('Enter a number to be reversed'))
-#comment by suman
+rNum=int(input('Enter a number to be reversed : '))
+res=0
 while(rNum!=0):
-    res=rNum%10
-    rNum=rNum/10
-    print(res)
+    temp=rNum%10
+    res=res*10+temp
+    rNum=int(rNum/10)
+
+print("Number got reversed :",res)
