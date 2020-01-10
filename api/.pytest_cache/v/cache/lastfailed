@@ -1,0 +1,4 @@
+{
+  "TestCases/test_pages.py::test_urls": true,
+  "TestCases/test_user.py::test_create_user": true
+}

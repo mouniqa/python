@@ -1,0 +1,6 @@
+[
+  "TestCases/test_pages.py::test_pages",
+  "TestCases/test_pages.py::test_urls",
+  "TestCases/test_user.py::test_create_user",
+  "TestCases/test_user.py::test_get_pages"
+]
